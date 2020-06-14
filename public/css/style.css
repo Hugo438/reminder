@@ -1,0 +1,142 @@
+@font-face{
+    font-family: Headcorps;
+    src:url("../fonts/Headcorps.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .menu{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: rgba(45, 137, 181, 1);
+}
+
+header .menu .cab_menu{
+    position: relative;
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+
+header .menu .cab_menu a{
+    text-decoration: none;
+}
+
+header .menu .cab_menu img{
+    width: 60px;
+    max-height: 60px;
+    border-radius: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+header .menu .cab_menu h2{
+    font-family: Headcorps;
+    font-size: 20pt;
+    line-height: 2.4em;
+    color: #FFF;
+}
+
+header .menu ul{
+    width: 65%;
+    height: 60px;
+    list-style:none;
+    line-height: 60px;
+    float: left;
+}
+
+header .menu ul li{
+    font-size: 12pt;
+    display:block;
+    float: left;
+    margin: 0px 10px;
+}
+
+header .menu ul li a{
+    font-family: Headcorps;
+    text-decoration: none;
+    color: #FABE1F;
+}
+
+header .menu ul li a:hover{
+    color: #000;
+}
+
+header .menu .user_profile{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    height: 60px;
+    float: left;
+}
+
+header .menu .user_profile a{
+    color: #000;
+}
+
+header .menu .user_profile a:hover{
+    color: #FABE1F;
+}
+
+header .menu .user_profile img{
+    height: 30%;
+    min-height: 60px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 5px;
+}
+
+header .menu .user_profile .user_profile_name{
+    margin-top: 1em;
+    float: left;
+    width: 60%;
+}
+
+header .menu .user_profile .user_profile_logout{
+    font-size: 12px;
+    float: left;
+}
+
+#content #filter_users{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 49, 83, 1);
+    box-shadow: grey 1px 1px 2px;
+}
+
+#content #filter_users .filter_componets{
+    width: 30%;
+    line-height: 40px;
+    float: right;
+}
+
+#content #filter_users .filter_componets label{
+    color: #FFF;
+}
+
+#content #filter_users .filter_componets input[type='text']{
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 25px;
+    border: none;
+}
+
+#content #filter_users .filter_componets a{
+    color: #FFF;
+    border: solid 1px #FFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#content #filter_users .filter_componets a:hover{
+    background-color: #FABE1F;
+    color: #000;
+    border: solid 1px #000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
